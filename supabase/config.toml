@@ -1,0 +1,15 @@
+# Supabase CLI — Edge Functions
+# https://supabase.com/docs/guides/functions/function-configuration
+
+project_id = "cekyskhvxyhvqnvpwqyl"
+
+[functions.line-webhook]
+# sb_publishable_ キーは JWT 形式ではないため OFF（Database Webhook / pg_net から呼び出し）
+verify_jwt = false
+
+[functions.line-bot]
+verify_jwt = false
+
+[functions.line-notify]
+# sb_publishable_ キー互換のため Gateway JWT OFF（関数内で JWT 検証）
+verify_jwt = false

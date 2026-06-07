@@ -1,0 +1,21 @@
+{
+  "id": "tc-chiba",
+  "name": "TC 千葉",
+  "location": "千葉県千葉市",
+  "type": "circuit",
+  "startLine": { "latitude": 35.6634, "longitude": 140.1078 },
+  "path": [
+    { "latitude": 35.6634, "longitude": 140.1078 },
+    { "latitude": 35.6638, "longitude": 140.1083 },
+    { "latitude": 35.6641, "longitude": 140.1091 },
+    { "latitude": 35.6638, "longitude": 140.1098 },
+    { "latitude": 35.6632, "longitude": 140.1100 },
+    { "latitude": 35.6627, "longitude": 140.1095 },
+    { "latitude": 35.6626, "longitude": 140.1086 },
+    { "latitude": 35.6630, "longitude": 140.1079 },
+    { "latitude": 35.6634, "longitude": 140.1078 }
+  ],
+  "recommendedPresetId": "fdj",
+  "lengthM": 650,
+  "cornerCount": 7
+}

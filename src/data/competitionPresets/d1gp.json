@@ -1,0 +1,14 @@
+{
+  "id": "d1gp",
+  "name": "D1GP 風",
+  "description": "D1グランプリ風の高難度スタイル。細いゾーン・高速域・精密なライン取りが求められる。",
+  "icon": "🏆",
+  "zoneHalfWidthM": 0.8,
+  "zoneMultiplier": 2.0,
+  "zoneColor": "#FF3344",
+  "speedReferenceKmh": 110,
+  "angleScaleDeg": 60,
+  "comboWindowMs": 2500,
+  "gradientCompensation": 1.0,
+  "gradeDifficulty": "hard"
+}

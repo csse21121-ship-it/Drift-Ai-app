@@ -1,0 +1,14 @@
+{
+  "id": "fdj",
+  "name": "FDJ 風",
+  "description": "Formula Drift Japan 風。角度重視・中程度の幅のゾーン・バランス型の採点。",
+  "icon": "🎯",
+  "zoneHalfWidthM": 1.2,
+  "zoneMultiplier": 1.8,
+  "zoneColor": "#FFAA00",
+  "speedReferenceKmh": 80,
+  "angleScaleDeg": 45,
+  "comboWindowMs": 3000,
+  "gradientCompensation": 1.0,
+  "gradeDifficulty": "normal"
+}

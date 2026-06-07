@@ -1,0 +1,14 @@
+{
+  "id": "casual",
+  "name": "カジュアル",
+  "description": "初心者・練習向け。広いゾーン・寛容な採点で気軽にドリフトを楽しめる。",
+  "icon": "😊",
+  "zoneHalfWidthM": 2.0,
+  "zoneMultiplier": 1.5,
+  "zoneColor": "#00FF88",
+  "speedReferenceKmh": 60,
+  "angleScaleDeg": 90,
+  "comboWindowMs": 4000,
+  "gradientCompensation": 1.0,
+  "gradeDifficulty": "easy"
+}

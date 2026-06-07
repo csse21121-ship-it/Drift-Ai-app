@@ -1,0 +1,22 @@
+{
+  "id": "tsukuba1000",
+  "name": "筑波サーキット コース1000",
+  "location": "茨城県下妻市",
+  "type": "circuit",
+  "startLine": { "latitude": 36.0940, "longitude": 140.0682 },
+  "path": [
+    { "latitude": 36.0940, "longitude": 140.0682 },
+    { "latitude": 36.0946, "longitude": 140.0690 },
+    { "latitude": 36.0950, "longitude": 140.0700 },
+    { "latitude": 36.0948, "longitude": 140.0711 },
+    { "latitude": 36.0942, "longitude": 140.0718 },
+    { "latitude": 36.0934, "longitude": 140.0716 },
+    { "latitude": 36.0929, "longitude": 140.0708 },
+    { "latitude": 36.0930, "longitude": 140.0697 },
+    { "latitude": 36.0936, "longitude": 140.0689 },
+    { "latitude": 36.0940, "longitude": 140.0682 }
+  ],
+  "recommendedPresetId": "fdj",
+  "lengthM": 1000,
+  "cornerCount": 7
+}

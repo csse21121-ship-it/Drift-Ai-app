@@ -1,0 +1,24 @@
+{
+  "id": "central-circuit",
+  "name": "セントラルサーキット",
+  "location": "兵庫県多可郡",
+  "type": "circuit",
+  "startLine": { "latitude": 34.9654, "longitude": 134.9298 },
+  "path": [
+    { "latitude": 34.9654, "longitude": 134.9298 },
+    { "latitude": 34.9661, "longitude": 134.9308 },
+    { "latitude": 34.9666, "longitude": 134.9322 },
+    { "latitude": 34.9668, "longitude": 134.9336 },
+    { "latitude": 34.9664, "longitude": 134.9349 },
+    { "latitude": 34.9657, "longitude": 134.9357 },
+    { "latitude": 34.9648, "longitude": 134.9355 },
+    { "latitude": 34.9641, "longitude": 134.9346 },
+    { "latitude": 34.9639, "longitude": 134.9332 },
+    { "latitude": 34.9643, "longitude": 134.9318 },
+    { "latitude": 34.9650, "longitude": 134.9306 },
+    { "latitude": 34.9654, "longitude": 134.9298 }
+  ],
+  "recommendedPresetId": "d1gp",
+  "lengthM": 1620,
+  "cornerCount": 10
+}

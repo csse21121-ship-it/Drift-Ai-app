@@ -1,0 +1,21 @@
+{
+  "id": "ebisu-south",
+  "name": "エビス南コース",
+  "location": "福島県二本松市",
+  "type": "circuit",
+  "startLine": { "latitude": 37.5963, "longitude": 140.4888 },
+  "path": [
+    { "latitude": 37.5963, "longitude": 140.4888 },
+    { "latitude": 37.5967, "longitude": 140.4895 },
+    { "latitude": 37.5971, "longitude": 140.4904 },
+    { "latitude": 37.5969, "longitude": 140.4912 },
+    { "latitude": 37.5963, "longitude": 140.4916 },
+    { "latitude": 37.5957, "longitude": 140.4913 },
+    { "latitude": 37.5954, "longitude": 140.4905 },
+    { "latitude": 37.5956, "longitude": 140.4896 },
+    { "latitude": 37.5963, "longitude": 140.4888 }
+  ],
+  "recommendedPresetId": "d1gp",
+  "lengthM": 590,
+  "cornerCount": 6
+}

@@ -1,0 +1,99 @@
+{
+  "expo": {
+    "name": "DriftScore AI",
+    "slug": "driftscore-ai",
+    "version": "1.0.0",
+    "orientation": "default",
+    "scheme": "driftscore",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#050505"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.driftscore.ai",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "ドリフト走行の速度・位置情報を計測するために使用します。",
+        "NSMotionUsageDescription": "Gメーターとジャイロデータを取得するためにモーションセンサーを使用します。",
+        "LSApplicationQueriesSchemes": ["line"],
+        "CFBundleDocumentTypes": [
+          {
+            "CFBundleTypeName": "DriftScore Tsuiso Run",
+            "LSHandlerRank": "Owner",
+            "LSItemContentTypes": ["com.driftscore.tsuiso"],
+            "CFBundleTypeRole": "Viewer"
+          }
+        ],
+        "UTExportedTypeDeclarations": [
+          {
+            "UTTypeIdentifier": "com.driftscore.tsuiso",
+            "UTTypeDescription": "DriftScore Tsuiso Run Data",
+            "UTTypeConformsTo": ["public.json", "public.data"],
+            "UTTypeTagSpecification": {
+              "public.filename-extension": ["tsuiso"],
+              "public.mime-type": ["application/vnd.driftscore.tsuiso+json"]
+            }
+          }
+        ]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#050505"
+      },
+      "package": "com.driftscore.ai",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "queries": [
+        {
+          "intent": {
+            "action": "android.intent.action.VIEW",
+            "data": {
+              "scheme": "line"
+            }
+          }
+        }
+      ],
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "category": ["DEFAULT", "BROWSABLE"],
+          "data": [
+            {
+              "scheme": "content",
+              "mimeType": "application/vnd.driftscore.tsuiso+json"
+            },
+            {
+              "scheme": "file",
+              "pathPattern": ".*\\.tsuiso"
+            }
+          ]
+        }
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "ドリフト走行の速度・位置情報を計測するために使用します。"
+        }
+      ],
+      [
+        "react-native-ble-plx",
+        {
+          "isBackgroundEnabled": false,
+          "modes": [
+            "central"
+          ],
+          "bluetoothAlwaysPermission": "外部ドリフトロガー（RaceBox 等）と接続するために Bluetooth を使用します。"
+        }
+      ],
+      "expo-video",
+      "expo-audio"
+    ]
+  }
+}
